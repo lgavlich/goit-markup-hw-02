@@ -1,5 +1,23 @@
+:root {
+--accent-color:  #2196F3;
+}
+
 body {
   font-family: Roboto, sans-serif;
+}
+
+/*HEADER*/
+.logo{
+font-family: Raleway,sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+#color: #ffffff
+}
+
+.web{
+color: var(--accent-color);
 }
 
 .navigation-list-link {
@@ -11,7 +29,7 @@ color: #212121;
 }
 .navigation-list-link:hover,
 .navigation-list-link:focus {
- color: #2196F3;  
+ color: var(--accent-color);  
 }
 .header-contact {
 font-weight: 500;
@@ -25,8 +43,9 @@ color: #757575;
 .header-contacts:hover,
 .header-contacts:focus,
 .header-contact-mail {
- color: #2196F3;  
+ color: var(--accent-color);  
 }
+/*END HEADER*/
 
 .modal-btn {
 font-weight: 700;
@@ -35,6 +54,7 @@ line-height: 1.875;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 }
+/*HERO*/
 .hero-title{
 font-weight: 900;
 font-size: 44px;
@@ -59,7 +79,21 @@ line-height: 1.714;
 letter-spacing: 0.03em;
 color: #757575;
 }
+.button{;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.btn:hover,
+.btn.focus{
+color: var(--accent-color)
+}
+/*END HERO*/
 
+/*TEAM*/
 .name-workers{
 font-weight: 500;
 font-size: 16px;
@@ -67,16 +101,28 @@ line-height: 1.187;
 letter-spacing: 0.03em;
 color: #212121;
 }
+/*END TEAM*/
 
+/*CONTACT*/
 .footer-contact{
-font-family: Roboto, sans-seriffont-style;
+font-family: Roboto, sans-serif;
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.714;
 letter-spacing: 0.03em;
-#color: rgba(255, 255, 255, 0.6);
+color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-nav{
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
 
 
 
