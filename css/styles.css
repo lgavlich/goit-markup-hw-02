@@ -1,5 +1,7 @@
 :root {
 --accent-color:  #2196F3;
+--text-white-color: #ffffff;
+--text-dark-color: #212121;
 }
 
 body {
@@ -13,7 +15,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.192;
 letter-spacing: 0.03em;
-color: #ffffff
+color:var(--text-dark-color)
 }
 
 .web{
@@ -87,6 +89,10 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
+.modal-btn{
+background-color: #2196F3;
+}
+
 .btn:hover,
 .btn.focus{
 color: var(--accent-color)
@@ -104,6 +110,11 @@ color: #212121;
 /*END TEAM*/
 
 /*CONTACT*/
+.footer,
+.hero{
+background-color:#2F303A;
+}
+
 .footer-contact{
 font-family: Roboto, sans-serif;
 font-style: normal;
@@ -140,6 +151,14 @@ font-size: 16px;
 line-height: 1.875;
 letter-spacing: 0.03em;
 color: #757575;
+}
+.footer-logo{
+font-family: Raleway,sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+color: var(--text-white-color);
 }
 
 
