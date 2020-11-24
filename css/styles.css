@@ -13,7 +13,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.192;
 letter-spacing: 0.03em;
-#color: #ffffff
+color: #ffffff
 }
 
 .web{
@@ -79,7 +79,7 @@ line-height: 1.714;
 letter-spacing: 0.03em;
 color: #757575;
 }
-.button{;
+.button{
 font-weight: 500;
 font-size: 16px;
 line-height: 26px;
@@ -122,6 +122,24 @@ font-size: 14px;
 line-height: 1.714;
 letter-spacing: 0.03em;
 color: #FFFFFF;
+}
+/*END CONTACT*/
+
+/*OUR WORKS*/
+.our-works{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.name-works{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+color: #757575;
 }
 
 
