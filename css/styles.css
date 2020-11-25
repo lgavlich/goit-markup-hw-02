@@ -102,6 +102,7 @@ background-color: #2196F3;
 .btn:focus{
 background-color:#2196F3;
 color:#FFFFFF;
+}
 
 .button:hover,
 .button.focus{
